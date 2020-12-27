@@ -1,0 +1,37 @@
+.home {
+    background: url('../assets/zomato.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.item{
+    padding: 20px 20px 57px;
+    border: 1px solid #fff;
+    contain: content;
+    cursor: pointer;
+}
+
+.item:hover{
+
+border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+}
+.theme--light.v-input {
+    background: hsl(300, 8%, 95%) !important;
+}
+.title{
+    font-size: 16px !important;
+    font-weight: 500;
+    word-break: break-word;
+}
+.select >>>.v-text-field__details{
+    display:none !important;
+}
+
+.select >>>.v-label,.select >>>.v-select__selections{
+    margin-left:20px !important;
+}
+.row{
+    flex: none;
+    width: 50%;
+}
